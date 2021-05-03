@@ -1,0 +1,29 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Moutain Hub";
+    Text = "Checking Game";
+})
+
+
+-- Blox Fruits
+elseif game.PlaceId == 2753915549 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/domina-teres/scripts/main/Blox%20fruits"))()
+
+-- Arsenal
+elseif game.PlaceId == 286090429 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/domina-teres/scripts/main/Arsenal"))()
+
+-- Ragdoll Engine
+elseif game.PlaceId == 2041312716 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/domina-teres/scripts/main/Ragdoll%20Engine"))()
+
+
+-- Anime Fight
+elseif game.PlaceId == 4042427666 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/domina-teres/scripts/main/Anime%20Fight"))()
+
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Moutain Hub";
+    Text = "Welcome To Moutain Hub v2";
+})
+
